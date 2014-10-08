@@ -51,18 +51,20 @@ public class MainActivity extends Activity {
     public boolean onOptionsItemSelected(MenuItem item)
     {
          
-        switch (item.getItemId())
-        {
-        case R.id.exitGame:
-            this.finish();
+    	
+    	int itemId = item.getItemId();
+    	
+    	if(R.id.exitGame == itemId) {
+    		this.finish();
             System.exit(0);
-        case R.id.newGame:
-        	Intent intent = getIntent();
+    	} else if(R.id.exitGame == itemId) {
+    		Intent intent = getIntent();
         	finish();
         	Constants.GAME = null;
         	startActivity(intent);
-        default:
-            return super.onOptionsItemSelected(item);
-        }
+    	} 
+    	
+    	return super.onOptionsItemSelected(item);
+    	
     } 
 }
