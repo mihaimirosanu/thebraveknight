@@ -1,0 +1,50 @@
+g = grass
+t = tree
+
+Rivers:
+
+--- A-
+
+ | 	B-
+ |
+ 
+ --   C-
+ |
+ 
+--    D-
+ |
+ 
+ |
+ -- E-
+ 
+ |
+--  F-
+
+-)  G-
+
+ (- H-
+ 
+ |
+ -   I-
+ 
+ 
+ -   J-
+ |  
+
+
+heroes:
+
+1-main hero
+2,3,4,5...
+
+6-9 - other animal types
+
+r-treausre
+s-spell 
+v-vision tower
+
+
+
+----------------------------------------------
+treasures=no_of_treasures,no_of_turns_to_regenerate_treasures
+totalTurns=no of turns until the current level is lost
